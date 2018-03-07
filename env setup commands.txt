@@ -1,0 +1,31 @@
+install anaconda.exe
+
+conda create -n tensorflow pip python=3.5 
+
+activate tensorflow
+
+pip install --ignore-installed --upgrade tensorflow
+
+conda install jupyter notbook
+
+conda install spyder
+
+conda install numpy
+
+conda install pandas
+
+conda install scipy
+
+conda install matplotlib
+
+conda install seaborn
+
+conda install -c anaconda scikit-learn
+
+conda install -c conda-forge keras
+
+conda install -c menpo opencv3
+
+conda install -c anaconda pillow
+
+conda install -c conda-forge tqdm
